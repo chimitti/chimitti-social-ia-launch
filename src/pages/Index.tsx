@@ -1,4 +1,3 @@
-
 import { Brain, Calendar, MessageCircle, Zap, Target, Bot, Instagram, TrendingUp, Users, BarChart3, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -294,6 +293,134 @@ const Index = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Other Social Media Packages Section */}
+      <section className="py-24 px-4 bg-slate-50">
+        <div className="max-w-6xl mx-auto space-y-16">
+          <div className="text-center space-y-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
+              Outros pacotes de social media{" "}
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                que pode te interessar
+              </span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {/* Essencial Estratégico */}
+            <Card className="overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+              <CardContent className="p-0">
+                <div className="bg-gradient-to-br from-purple-500 to-pink-600 p-8 text-white">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center">
+                      <Target className="w-8 h-8 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold">Essencial Estratégico</h3>
+                      <p className="text-purple-100">Social media profissional e estratégico</p>
+                    </div>
+                  </div>
+                  
+                  <p className="text-lg mb-6">
+                    Você envia o conteúdo bruto. Nós transformamos em estratégia, design profissional e copy que converte.
+                  </p>
+
+                  <div className="space-y-3 mb-8">
+                    <h4 className="flex items-center gap-2 font-semibold text-lg">
+                      <Instagram className="w-5 h-5" />
+                      Como a Chimitti faz:
+                    </h4>
+                    <ul className="space-y-2 text-purple-100">
+                      <li className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-white rounded-full flex-shrink-0"></div>
+                        <span>Alinhamento estratégico e otimização completa do perfil</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-white rounded-full flex-shrink-0"></div>
+                        <span>Calendário editorial mensal com direcionamento estratégico</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-white rounded-full flex-shrink-0"></div>
+                        <span>12 posts para feed + 4 sequências de stories mensais</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-white rounded-full flex-shrink-0"></div>
+                        <span>Copywriting profissional com CTAs e hashtags otimizadas</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-white rounded-full flex-shrink-0"></div>
+                        <span>Gestão de até 2 redes sociais (Instagram e Facebook)</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div className="p-6 bg-white">
+                  <Button className="w-full bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white py-6 text-lg rounded-xl shadow-lg transition-all duration-300 hover:scale-105">
+                    Conhecer Social Media Estratégico
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Impulso IA */}
+            <Card className="overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+              <CardContent className="p-0">
+                <div className="bg-gradient-to-br from-blue-500 to-cyan-600 p-8 text-white">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center">
+                      <Brain className="w-8 h-8 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold">Impulso IA</h3>
+                      <p className="text-blue-100">Conteúdo social media gerado por IA</p>
+                    </div>
+                  </div>
+                  
+                  <p className="text-lg mb-6">
+                    Redes sociais sempre atualizadas com conteúdo estratégico gerado automaticamente pela inteligência artificial.
+                  </p>
+
+                  <div className="space-y-3 mb-8">
+                    <h4 className="flex items-center gap-2 font-semibold text-lg">
+                      <Brain className="w-5 h-5" />
+                      Como a Chimitti faz:
+                    </h4>
+                    <ul className="space-y-2 text-blue-100">
+                      <li className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-white rounded-full flex-shrink-0"></div>
+                        <span>Onboarding estratégico para treinar IA com sua identidade</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-white rounded-full flex-shrink-0"></div>
+                        <span>Geração automática de 12 posts e 4 stories mensais</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-white rounded-full flex-shrink-0"></div>
+                        <span>Legendas persuasivas com CTAs e hashtags otimizadas</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-white rounded-full flex-shrink-0"></div>
+                        <span>Chatbot de respostas automáticas no Instagram</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-white rounded-full flex-shrink-0"></div>
+                        <span>Gestão de 2 redes + relatórios mensais com insights</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div className="p-6 bg-white">
+                  <Button className="w-full bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white py-6 text-lg rounded-xl shadow-lg transition-all duration-300 hover:scale-105">
+                    Ativar Social Media com IA
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

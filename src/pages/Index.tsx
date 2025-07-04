@@ -297,6 +297,40 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Final CTA Section */}
+      <section className="py-24 px-4 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+        <div className="max-w-4xl mx-auto text-center space-y-12">
+          <div className="space-y-6">
+            <h2 className="text-4xl md:text-5xl font-bold">
+              Pronto para automatizar suas redes sociais{" "}
+              <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                com inteligência real?
+              </span>
+            </h2>
+            
+            <div className="space-y-4">
+              <p className="text-xl text-slate-300">
+                Chega de perder vendas por falta de resposta ou conteúdo genérico.
+              </p>
+              <p className="text-xl text-slate-300">
+                Com IA + estratégia, suas redes trabalham por você 24/7.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-lg mx-auto">
+            <Button className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/25 transition-all duration-300 hover:scale-105 flex items-center gap-2">
+              <Calendar className="w-5 h-5" />
+              Consultoria Gratuita
+            </Button>
+            <Button variant="outline" className="border-slate-600 text-slate-300 hover:bg-slate-800 px-8 py-6 text-lg rounded-xl transition-all duration-300 hover:scale-105 flex items-center gap-2">
+              <ArrowRight className="w-5 h-5" />
+              Quero Automatizar Meu Social Media
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Other Social Media Packages Section */}
       <section className="py-24 px-4 bg-slate-50">
         <div className="max-w-6xl mx-auto space-y-16">
@@ -421,40 +455,6 @@ const Index = () => {
                 </div>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA Section */}
-      <section className="py-24 px-4 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
-        <div className="max-w-4xl mx-auto text-center space-y-12">
-          <div className="space-y-6">
-            <h2 className="text-4xl md:text-5xl font-bold">
-              Pronto para automatizar suas redes sociais{" "}
-              <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                com inteligência real?
-              </span>
-            </h2>
-            
-            <div className="space-y-4">
-              <p className="text-xl text-slate-300">
-                Chega de perder vendas por falta de resposta ou conteúdo genérico.
-              </p>
-              <p className="text-xl text-slate-300">
-                Com IA + estratégia, suas redes trabalham por você 24/7.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-lg mx-auto">
-            <Button className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg shadow-blue-500/25 transition-all duration-300 hover:scale-105 flex items-center gap-2">
-              <Calendar className="w-5 h-5" />
-              Consultoria Gratuita
-            </Button>
-            <Button variant="outline" className="border-slate-600 text-slate-300 hover:bg-slate-800 px-8 py-6 text-lg rounded-xl transition-all duration-300 hover:scale-105 flex items-center gap-2">
-              <ArrowRight className="w-5 h-5" />
-              Quero Automatizar Meu Social Media
-            </Button>
           </div>
         </div>
       </section>
